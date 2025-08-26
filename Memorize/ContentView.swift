@@ -11,9 +11,10 @@ struct ContentView: View {
     var body: some View {
         HStack{
         CardView(isFaceUp: true)
-        CardView()
-        CardView()
+        CardView(isFaceUp: false)
+        CardView(isFaceUp: true)
     }
+        .foregroundStyle(.orange)
         .padding()
     }
 }
