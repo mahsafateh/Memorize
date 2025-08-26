@@ -1,0 +1,76 @@
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Accio dependency manager
+Dependencies/
+.accio/
+
+# Tuist
+Tuist/Derived/
+
+# App Packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+*.swp
+*.lock
+*.tmp
+*.temp
+*.orig
+
+# SwiftLint cache
+.swiftlint_cache
+
+# Xcode workspace & scheme management
+*.xcworkspace
+xcshareddata/
+
+# Firebase / Google
+GoogleService-Info.plist
+
+#env
+.env
+
+# Other
+*.plist~
