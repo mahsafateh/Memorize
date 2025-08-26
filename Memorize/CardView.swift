@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardView: View {
+    @State var content: String = ""
     @State var isFaceUp: Bool = false
     
     var body: some View {
@@ -18,7 +19,7 @@ struct CardView: View {
             if isFaceUp {
                 base.fill(.white)
                 base.strokeBorder(lineWidth: 5)
-                Text("👻")
+                Text(content)
                     .font(.largeTitle)
             } else {
                 base.fill()
@@ -26,7 +27,6 @@ struct CardView: View {
         }
         .onTapGesture {
             isFaceUp.toggle()
-            print("card is tapped \(isFaceUp)")
         }
         
     }
